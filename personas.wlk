@@ -1,8 +1,15 @@
-object rosa {
-  var gustoDePeso = 2000
+import objetos
 
-  method gustoDePeso() {
-    return gustoDePeso
+object rosa {
+  method pesoPreferido() {
+    return 2000
     
+  }
+}
+
+object estefania {
+  
+  method colorpreferido(color) {
+    return color.fuerte()
   }
 }
